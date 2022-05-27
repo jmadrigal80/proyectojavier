@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{22A704AD-8255-443D-9ED9-2280A97B7294}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{0BDEEA9C-1FFD-42D7-A798-3142E0CDD60C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -38,11 +38,29 @@
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Tarea Script"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
           Name="ST_50576a5898dd474282b86ba0b7fae447"
+          VSTAMajorVersion="15"
+          VSTAMinorVersion="0"
+          Language="CSharp" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Script 1"
+      DTS:CreationName="Microsoft.ScriptTask"
+      DTS:Description="Tarea Script"
+      DTS:DTSID="{C07E2900-DCDF-4394-9609-AC6AEE8EAC2D}"
+      DTS:ExecutableType="Microsoft.ScriptTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Script 1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ScriptProject
+          Name="ST_89841428b9b845f3b70411d0830f6b4a"
           VSTAMajorVersion="15"
           VSTAMinorVersion="0"
           Language="CSharp" />
@@ -62,13 +80,17 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
+          Size="131,42"
+          Id="Package\Tarea FTP"
+          TopLeft="321,257" />
+        <NodeLayout
           Size="139,42"
           Id="Package\Tarea Script"
           TopLeft="119,109" />
         <NodeLayout
-          Size="131,42"
-          Id="Package\Tarea FTP"
-          TopLeft="321,257" />
+          Size="148,42"
+          Id="Package\Tarea Script 1"
+          TopLeft="169,343" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
